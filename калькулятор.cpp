@@ -1,4 +1,3 @@
-﻿
 #include<iostream>
 #include<cmath>
 #include<Windows.h>
@@ -32,63 +31,64 @@ int main()
         cout << "\nВведите номер операции: ";
         cin >> choice;
 
+        double r, h;
+
         switch (choice)
         {
         case 1:
         {
-            double a, b;
-
+            
             cout << "Введите первое число: ";
-            cin >> a;
+            cin >> r;
 
             cout << "Введите второе число: ";
-            cin >> b;
+            cin >> h;
 
-            cout << "Результат: " << a + b << "\n";
+            cout << "Результат: " << r + h << "\n";
             break;
         }
 
         case 2:
         {
-            double a, b;
+
 
             cout << "Введите первое число: ";
-            cin >> a;
+            cin >> r;
 
             cout << "Введите второе число: ";
-            cin >> b;
+            cin >> h;
 
-            cout << "Результат: " << b - a << "\n";
+            cout << "Результат: " << h - r << "\n";
             break;
         }
 
         case 3:
         {
-            double a, b;
+           
 
             cout << "Введите первое число: ";
-            cin >> a;
+            cin >> r;
 
             cout << "Введите второе число: ";
-            cin >> b;
+            cin >> h;
 
-            cout << "Результат: " << a * b << "\n";
+            cout << "Результат: " << r * h << "\n";
             break;
         }
 
         case 4:
         {
-            double a, b;
+  
 
             cout << "Введите первое число: ";
-            cin >> a;
+            cin >> r;
 
             cout << "Введите второе число: ";
-            cin >> b;
+            cin >> h;
 
-            if (b != 0)
+            if (h != 0)
             {
-                cout << "Результат: " << a / b << "\n";
+                cout << "Результат: " << r / h << "\n";
             }
             else
             {
@@ -100,37 +100,37 @@ int main()
 
         case 5:
         {
-            double a, b;
+      
 
             cout << "Введите первое число: ";
-            cin >> a;
+            cin >> r;
 
             cout << "Введите степень: ";
-            cin >> b;
+            cin >> h;
 
-            cout << "Результат: " << pow(a, b) << "\n";
+            cout << "Результат: " << pow(r, h) << "\n";
             break;
         }
 
         case 6:
         {
-            double a;
+            
 
             cout << "Введите число: ";
-            cin >> a;
+            cin >> r;
 
-            cout << "Результат: " << sqrt(a) << "\n";
+            cout << "Результат: " << sqrt(r) << "\n";
             break;
         }
 
         case 7:
         {
-            double a;
+
 
             cout << "Введите число: ";
-            cin >> a;
+            cin >> r;
 
-            cout << "1 процент: " << a / 100 << "\n";
+            cout << "1 процент: " << r / 100 << "\n";
             break;
         }
 
